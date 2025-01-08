@@ -20,4 +20,3 @@ $val_cookie = $usu;
 setcookie($n_cookie, $val_cookie, time() + (86400 * 30));
 
 header("Location: ./bienvenida.php");
-?>
