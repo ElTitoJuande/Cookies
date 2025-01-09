@@ -10,11 +10,12 @@
 </head>
 
 <body>
+    <div id="container">
     <h1>Bienvenido al ejercicio de Cookies</h1>
 
     <?php
     if (isset($_COOKIE["usuario"])) {
-        echo "Bienvenido al ejercicio " . $_COOKIE["usuario"];
+        echo "Bienvenido al ejercicio, " . $_COOKIE["usuario"];
     ?>
         <form action="cerrarSesion.php">
             <input type="submit" name="Cerrar sesion" value="Cerrar sesión">
@@ -25,6 +26,7 @@
         echo "La cookie no se ha generado, no has iniciado sesión";
     }
     ?>
+    </div>
 
 </body>
 

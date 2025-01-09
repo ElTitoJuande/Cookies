@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <h1>Inicio sesión</h1>
+    <div id="conatiner">
+        <h1>Inicio sesión</h1>
     <form action="./comprobacion.php" method="post">
         <label for="nombre">Usuario:</label>
         <input type="text" placeholder="Usuario" name="usuario">
@@ -19,6 +20,8 @@
         <br>
         <input type="submit">
     </form>
+    </div>
+    
 
 </body>
 
